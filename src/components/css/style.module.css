@@ -1,0 +1,52 @@
+.myPhoto{
+    border-radius: 50%;
+    width: 70vh;
+    height: auto;
+}
+.links{
+    text-decoration: none;
+    color: blue;
+}
+.links:hover{
+    color: grey;
+}
+.number{
+    text-align: center;
+    padding-top: 1rem;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+    color: blue;
+}
+.navlink{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.navlink:hover{
+    color: grey;
+}
+.navlink:focus{
+    color: rgb(44, 44, 214);
+}
+.unList :nth-child(odd){
+    clear: both;
+}
+.unList li {
+    border-top: 1.5px solid grey;
+    height: 40px;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+.unList li p{
+    float: right;
+}
+
