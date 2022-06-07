@@ -12,16 +12,16 @@ function Header() {
     <React.Fragment>
    <Navbar bg="light" expand="lg">
   <Container fluid>
-    <Link className="navbar-brand"  to="/Home" >Shahmali Mustafayev</Link>
+    <Link className="navbar-brand"  to="/" >Shahmali Mustafayev</Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <NavLink  to="/About" className={style.navlink}>About</NavLink>
-        <NavLink to="/Resume" className={style.navlink}>Resume</NavLink>
-        <NavLink to="/Project" className={style.navlink}>Projects</NavLink>
-        <NavLink to="/Stats" className={style.navlink}>Stats</NavLink>
-        <NavLink to="/Contact" className={style.navlink}>Contact</NavLink>
-{/* isActive is not workint but I do not reason therefore I used css pseude code */}
+        <NavLink  to="About" className={style.navlink}>About</NavLink>
+        <NavLink to="Resume" className={style.navlink}>Resume</NavLink>
+        <NavLink to="Project" className={style.navlink}>Projects</NavLink>
+        <NavLink to="Stats" className={style.navlink}>Stats</NavLink>
+        <NavLink to="Contact" className={style.navlink}>Contact</NavLink>
+{/* isActive is not working but I do not reason therefore I used css pseude code */}
       </Nav>
     </Navbar.Collapse>
   </Container>
